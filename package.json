@@ -1,0 +1,19 @@
+{
+  "name": "burger-builder-rest-api",
+  "version": "1.0.0",
+  "description": "REST API Server that creates API endpoints for a burger builder app. It uses MySQL for storage engine with Sequelize as Object Relational Model - ORM.",
+  "main": "app.js",
+  "scripts": {
+    "test": "n/a"
+  },
+  "keywords": [
+    "REST",
+    "APIs",
+    "for",
+    "burger",
+    "builder",
+    "app"
+  ],
+  "author": "Paul Chheang",
+  "license": "ISC"
+}
