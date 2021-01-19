@@ -4,16 +4,23 @@
   "description": "REST API Server that creates API endpoints for a burger builder app. It uses MySQL for storage engine with Sequelize as Object Relational Model - ORM.",
   "main": "app.js",
   "scripts": {
-    "test": "n/a"
+    "test": "n/a",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
   },
   "keywords": [
     "REST",
-    "APIs",
-    "for",
-    "burger",
-    "builder",
-    "app"
+    "API",
+    "sequelize",
+    "mysql",
+    "builder-builder"
   ],
   "author": "Paul Chheang",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
